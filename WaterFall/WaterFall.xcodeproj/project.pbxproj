@@ -9,10 +9,17 @@
 /* Begin PBXBuildFile section */
 		E5372B3F1BDF325A00588BC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5372B3E1BDF325A00588BC5 /* main.m */; };
 		E5372B421BDF325A00588BC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5372B411BDF325A00588BC5 /* AppDelegate.m */; };
-		E5372B451BDF325A00588BC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5372B441BDF325A00588BC5 /* ViewController.m */; };
 		E5372B481BDF325A00588BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5372B461BDF325A00588BC5 /* Main.storyboard */; };
 		E5372B4A1BDF325A00588BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5372B491BDF325A00588BC5 /* Assets.xcassets */; };
 		E5372B4D1BDF325A00588BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5372B4B1BDF325A00588BC5 /* LaunchScreen.storyboard */; };
+		E5C0169B1BDF332500F5BF97 /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5C016981BDF332500F5BF97 /* 1.plist */; };
+		E5C0169C1BDF332500F5BF97 /* 2.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5C016991BDF332500F5BF97 /* 2.plist */; };
+		E5C0169D1BDF332500F5BF97 /* 3.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5C0169A1BDF332500F5BF97 /* 3.plist */; };
+		E5C016AD1BDF33D900F5BF97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C016A11BDF33D900F5BF97 /* ViewController.m */; };
+		E5C016AE1BDF33D900F5BF97 /* HMShop.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C016A41BDF33D900F5BF97 /* HMShop.m */; };
+		E5C016AF1BDF33D900F5BF97 /* HMFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C016A71BDF33D900F5BF97 /* HMFooterView.m */; };
+		E5C016B01BDF33D900F5BF97 /* HMShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C016A91BDF33D900F5BF97 /* HMShopCell.m */; };
+		E5C016B11BDF33D900F5BF97 /* HMWaterfallFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C016AC1BDF33D900F5BF97 /* HMWaterfallFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +27,23 @@
 		E5372B3E1BDF325A00588BC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E5372B401BDF325A00588BC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E5372B411BDF325A00588BC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E5372B431BDF325A00588BC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E5372B441BDF325A00588BC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E5372B471BDF325A00588BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5372B491BDF325A00588BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5372B4C1BDF325A00588BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5372B4E1BDF325A00588BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5C016981BDF332500F5BF97 /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		E5C016991BDF332500F5BF97 /* 2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 2.plist; sourceTree = "<group>"; };
+		E5C0169A1BDF332500F5BF97 /* 3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 3.plist; sourceTree = "<group>"; };
+		E5C016A01BDF33D900F5BF97 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E5C016A11BDF33D900F5BF97 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E5C016A31BDF33D900F5BF97 /* HMShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMShop.h; sourceTree = "<group>"; };
+		E5C016A41BDF33D900F5BF97 /* HMShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMShop.m; sourceTree = "<group>"; };
+		E5C016A61BDF33D900F5BF97 /* HMFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMFooterView.h; sourceTree = "<group>"; };
+		E5C016A71BDF33D900F5BF97 /* HMFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMFooterView.m; sourceTree = "<group>"; };
+		E5C016A81BDF33D900F5BF97 /* HMShopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMShopCell.h; sourceTree = "<group>"; };
+		E5C016A91BDF33D900F5BF97 /* HMShopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMShopCell.m; sourceTree = "<group>"; };
+		E5C016AB1BDF33D900F5BF97 /* HMWaterfallFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMWaterfallFlowLayout.h; sourceTree = "<group>"; };
+		E5C016AC1BDF33D900F5BF97 /* HMWaterfallFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMWaterfallFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +76,9 @@
 		E5372B3C1BDF325A00588BC5 /* WaterFall */ = {
 			isa = PBXGroup;
 			children = (
+				E5C0169E1BDF33D900F5BF97 /* Demo */,
 				E5372B401BDF325A00588BC5 /* AppDelegate.h */,
 				E5372B411BDF325A00588BC5 /* AppDelegate.m */,
-				E5372B431BDF325A00588BC5 /* ViewController.h */,
-				E5372B441BDF325A00588BC5 /* ViewController.m */,
 				E5372B461BDF325A00588BC5 /* Main.storyboard */,
 				E5372B491BDF325A00588BC5 /* Assets.xcassets */,
 				E5372B4B1BDF325A00588BC5 /* LaunchScreen.storyboard */,
@@ -74,9 +91,70 @@
 		E5372B3D1BDF325A00588BC5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E5C016971BDF332500F5BF97 /* plist */,
 				E5372B3E1BDF325A00588BC5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5C016971BDF332500F5BF97 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				E5C016981BDF332500F5BF97 /* 1.plist */,
+				E5C016991BDF332500F5BF97 /* 2.plist */,
+				E5C0169A1BDF332500F5BF97 /* 3.plist */,
+			);
+			path = plist;
+			sourceTree = "<group>";
+		};
+		E5C0169E1BDF33D900F5BF97 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E5C0169F1BDF33D900F5BF97 /* Controller */,
+				E5C016A21BDF33D900F5BF97 /* Model */,
+				E5C016A51BDF33D900F5BF97 /* View */,
+				E5C016AA1BDF33D900F5BF97 /* WaterFall */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		E5C0169F1BDF33D900F5BF97 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E5C016A01BDF33D900F5BF97 /* ViewController.h */,
+				E5C016A11BDF33D900F5BF97 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E5C016A21BDF33D900F5BF97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E5C016A31BDF33D900F5BF97 /* HMShop.h */,
+				E5C016A41BDF33D900F5BF97 /* HMShop.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5C016A51BDF33D900F5BF97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5C016A61BDF33D900F5BF97 /* HMFooterView.h */,
+				E5C016A71BDF33D900F5BF97 /* HMFooterView.m */,
+				E5C016A81BDF33D900F5BF97 /* HMShopCell.h */,
+				E5C016A91BDF33D900F5BF97 /* HMShopCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5C016AA1BDF33D900F5BF97 /* WaterFall */ = {
+			isa = PBXGroup;
+			children = (
+				E5C016AB1BDF33D900F5BF97 /* HMWaterfallFlowLayout.h */,
+				E5C016AC1BDF33D900F5BF97 /* HMWaterfallFlowLayout.m */,
+			);
+			name = WaterFall;
+			path = ../WaterFall;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +215,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5C0169D1BDF332500F5BF97 /* 3.plist in Resources */,
 				E5372B4D1BDF325A00588BC5 /* LaunchScreen.storyboard in Resources */,
+				E5C0169C1BDF332500F5BF97 /* 2.plist in Resources */,
 				E5372B4A1BDF325A00588BC5 /* Assets.xcassets in Resources */,
+				E5C0169B1BDF332500F5BF97 /* 1.plist in Resources */,
 				E5372B481BDF325A00588BC5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,9 +231,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5372B451BDF325A00588BC5 /* ViewController.m in Sources */,
+				E5C016B11BDF33D900F5BF97 /* HMWaterfallFlowLayout.m in Sources */,
+				E5C016B01BDF33D900F5BF97 /* HMShopCell.m in Sources */,
+				E5C016AD1BDF33D900F5BF97 /* ViewController.m in Sources */,
 				E5372B421BDF325A00588BC5 /* AppDelegate.m in Sources */,
+				E5C016AE1BDF33D900F5BF97 /* HMShop.m in Sources */,
 				E5372B3F1BDF325A00588BC5 /* main.m in Sources */,
+				E5C016AF1BDF33D900F5BF97 /* HMFooterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +384,7 @@
 				E5372B531BDF325A00588BC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
